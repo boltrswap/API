@@ -1,0 +1,15 @@
+{
+  "name": "Boltrswap v2",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Boltrswap v2": {
+        "url": "https://api.thegraph.com/subgraphs/name/alexander3636/theboltr",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

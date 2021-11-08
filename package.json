@@ -1,0 +1,36 @@
+{
+  "name": "boltrswap-api",
+  "version": "1.0.0",
+  "description": "Serverless API implementation for Boltrswap on-chain data query.",
+  "repository": "git@github.com:boltrswap/boltrswap-api.git",
+  "author": "BoltrLabs",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write '*/**/*.{js,ts}'",
+    "lint": "eslint '*/**/*.{js,ts}'",
+    "codegen": "graphql-codegen --config utils/apollo/codegen.yml"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "@ethersproject/address": "^5.0.10",
+    "bignumber.js": "^9.0.1",
+    "cross-fetch": "^3.0.6",
+    "graphql-tag": "^2.11.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@graphql-codegen/cli": "1.15.4",
+    "@graphql-codegen/typescript": "1.15.4",
+    "@graphql-codegen/typescript-operations": "^1.15.4",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "@vercel/node": "^1.9.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "graphql": "^15.5.0",
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
